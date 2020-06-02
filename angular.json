@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Squad",
+            "outputPath": "www",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -52,8 +52,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 }
               ]
             }
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Squad"
+    }
+  },
+  "defaultProject": "Squad",
+  "cli": {
+    "analytics": "9c2c78f2-7dae-4ed4-a687-21cf3a06ebcd"
+  }
 }

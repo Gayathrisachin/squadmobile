@@ -1,0 +1,100 @@
+<!-- Main Starts -->
+
+<app-log-info [child]="parent" style="display:none;"></app-log-info>
+<div class="main-bg" >
+ <div class="sub-main">
+   <!-- Top Navigation starts -->
+   <div class="bg-content-w3pvt" style="margin-bottom: 50px;">    
+  <div class=" top-content-style" >
+    <div class="pull-left">
+       <span class="fa fa-bars"></span>
+        </div>
+        <span id="home">Home</span>
+        <div class="pull-right">
+        <span class="fa fa-search"></span>
+        </div>     
+      </div>    <!-- Top Navigation ends -->
+    
+       
+        <div class="card" (click)=onClick()>
+        <div class="card-body" style="padding: 15px;">
+        <h4> Meeting Schedule</h4>
+         <p>Need to attend the meeting on Friday @3pm to discuss about the work performnce.</p>
+         <img src="assets/oie_transparent .png" style="width: 110px;
+         height: 80px;right:-5px;bottom:-8px;position: absolute;">
+            </div>
+        </div>
+               <div class="attendance container" style="position: relative;" >
+                <h5 style="font-size:12px;font-weight: 600;">Mark attendance</h5>
+               
+                  <div class="col-md-12-1" style="margin-top: 20px;"> 
+                      
+                    <form class="example-form" [formGroup]="formGroup" >
+                      <label class="switch">
+                        <input type="checkbox"  placeholder="Slide">
+                           <span class="slider round"></span>
+                           <span class="on" style="position: absolute;
+                           top: 15px;
+                           font-size: medium;
+                           left: 30%;
+    right: 30%;">Slide to Check IN</span>
+                      </label>
+                  
+                   <span *ngIf="hide" class="logIn-text" style="font-size: 10px;position: absolute;color:blueviolet;display: flex;left:0px">Last LogIn {{today| date:'hh:mm a':'+0530'}}</span> 
+                   <span *ngIf="!hide"#pO class="logOut-text" style="font-size: 10px;right:0;position: absolute;color:blueviolet;display: flex;right: 0px;">Last LogOut {{today | date:'hh:mm a':'+0530'}}</span>
+                  </form>
+                  </div> 
+       
+                </div>
+            
+                <div class="card-container" style=" margin:4em -1.5em 0em -1.5em">
+                  <h5 style="font-size:12px;font-weight: 600;margin-bottom: 20px;">More</h5>
+                    <div class="row">
+                      <div class="col-sm-4">
+                       
+                        <div class="cards">
+                          
+                          <div class="cards-body">
+                            <a routerLink='/log' routerLinkActive="Active">
+                            <img src="assets/Icon_1.png" style="background: #1fcc92;
+                            box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
+                            border-radius: 10px;
+                            padding: 0.5em;"></a>
+                            <p>Log Info</p>
+                              </div>
+                              </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="cards">
+                          <div class="cards-body">
+                            <a routerLink='/leave' routerLinkActive="Active">
+                            <img src="assets/Icon_2.png" style="background: #7fe2ff;;
+                              box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
+                              border-radius: 10px;
+                              padding:0.5em;"></a>
+                            <p>Apply Leave</p>
+                              </div>
+                              </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="cards" >
+                          <div class="cards-body">
+                            <a routerLink='/expense' routerLinkActive="Active">
+                            <img src="assets/Icon_3.png"  style="background: #fd8383;;
+                              box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
+                              border-radius: 10px;
+                              padding: 0.5em;"></a>
+                           <p>File Expense</p>
+                              </div>
+                              </div>
+                      </div>
+                    </div>
+
+                   
+        </div>
+       
+</div>
+
+</div>
+
+</div>

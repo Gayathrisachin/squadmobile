@@ -1,0 +1,132 @@
+{
+  "Fake": [
+    {
+      "id": 1,
+      "todaysDateTime": true
+    },
+    {
+      "id": 2,
+      "todaysDateTime": true
+    },
+    {
+      "id": 3,
+      "todaysDateTime": true
+    },
+    {
+      "id": 4,
+      "todaysDateTime": "2020-05-30T08:53:18.873Z"
+    },
+    {
+      "id": 5,
+      "todaysDateTime": "2020-05-30T09:02:36.557Z",
+      "todaysTime": ""
+    },
+    {
+      "id": 6,
+      "todaysDateTime": "2020-05-30T09:03:19.711Z",
+      "todaysTime": ""
+    },
+    {
+      "id": 7,
+      "todaysDateTime": "2020-05-30T09:04:59.813Z",
+      "todaysTime": ""
+    },
+    {
+      "id": 8,
+      "todaysDateTime": "2020-05-30T09:05:39.432Z",
+      "todaysTime": ""
+    },
+    {
+      "id": 9,
+      "todaysDateTime": "2020-05-30T09:06:33.775Z",
+      "todaysTime": ""
+    },
+    {
+      "id": 10,
+      "todaysDateTime": "2020-05-30T09:08:04.335Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 11,
+      "todaysDateTime": "2020-05-30T09:25:29.854Z"
+    },
+    {
+      "id": 12,
+      "todaysDateTime": "2020-05-30T10:44:57.487Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 13,
+      "todaysDateTime": "2020-05-30T10:45:32.363Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 14,
+      "todaysDateTime": "2020-05-30T10:45:38.995Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 15,
+      "todaysDateTime": "2020-05-30T10:46:18.955Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 16,
+      "todaysDateTime": "2020-05-30T10:47:57.151Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 17,
+      "todaysDateTime": "2020-05-30T10:56:10.476Z"
+    },
+    {
+      "id": 18,
+      "todaysDateTime": "2020-05-30T10:56:10.476Z"
+    },
+    {
+      "id": 19,
+      "todaysDateTime": "2020-05-30T10:56:10.476Z"
+    },
+    {
+      "id": 20,
+      "todaysDateTime": "2020-05-30T10:56:10.476Z"
+    },
+    {
+      "id": 21,
+      "todaysDateTime": "2020-05-30T10:56:10.476Z"
+    },
+    {
+      "id": 22,
+      "todaysDateTime": "2020-05-30T10:57:17.540Z"
+    },
+    {
+      "id": 23,
+      "todaysDateTime": "2020-05-30T10:57:17.540Z"
+    },
+    {
+      "id": 24,
+      "todaysDateTime": "2020-05-30T10:58:09.987Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 25,
+      "todaysDateTime": "2020-06-02T08:47:27.645Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 26,
+      "todaysDateTime": "2020-06-02T08:51:56.577Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 27,
+      "todaysDateTime": "2020-06-02T08:57:03.637Z",
+      "todaysDate": ""
+    },
+    {
+      "id": 28,
+      "todaysDateTime": "2020-06-02T09:01:49.052Z",
+      "todaysDate": ""
+    }
+  ]
+}

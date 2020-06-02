@@ -1,0 +1,66 @@
+<!-- Main Div -->
+<div class="main">
+    <!-- Top Navigation -->
+    <div class=" top-content-style"> 
+      <div class="pull-left">
+        <span ><a routerLink='/mark-attendance' routerLinkActive="Active"  class="fa fa-arrow-left" style="color: white;text-decoration: none;"></a></span>
+       </div>
+          <span id="home" style="text-align: center;">Log Info</span>
+          <div class="pull-right">
+          <span class="fa fa-search"></span>
+          </div>     
+     </div>    <!--Top Navigation Ends   -->
+      
+        <!-- card -->
+        <div class="card" style="margin-bottom:150px">
+            <div class="card-body" >
+           <div class="group">
+            <span>Login Time</span>
+            <span style="right:0px;font-size:8px;position: absolute;color: #000000;padding:0;margin:0 15px;">Filter By</span>
+           
+            <!-- <span style="right:0px;position: absolute;margin:0 15px;"> -->
+            <!-- <span style="right:0px;position: absolute;margin:0 15px;"> -->
+                <div class="box" style="right:0px;position: absolute;margin:0 15px;" >
+                    <form [formGroup]="form">
+                    <select formControlName="name" >
+                        <option *ngFor="let date of DateHeader">{{date.name}} </option>
+                    </select>
+                </form>
+                  </div>
+             <!-- </span> -->
+             <p style="font-size:20px;padding:0;margin-top: 4px;">45.5<span style="font-size:10px;padding-left:5px">hrs</span></p>
+          
+           </div>
+              <div class="graph" style="padding: 0 30px 30px;
+              margin: 0 15px;">
+                  <div class="graph-bg" style="background: #09ca889e; height: 150px;border-radius: 10px;">
+
+                  </div>
+              </div>  
+           
+            <!-- Table Division -->
+             <table>
+                <thead style="background: #7e7a7a;;color:#ffffff;">
+                    <tr>
+                        <th>Date</th>
+                        <th>Punch In</th>
+                        <th>Punch Out</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of log">
+                        <td>{{ item.todaysDateTime | date:'dd-MM-yyyy'}}</td>
+                        <td>{{ item.todaysDateTime | date:'hh:mm a':'+0530'}}</td>
+                        <td *ngIf=!child>{{ item.todaysDateTime| date:'hh:mm a':'+0530' }}</td>
+                    </tr>
+                </tbody>
+            </table>
+   
+            </div>
+                </div>
+           
+           
+            
+        </div>
+ 
+  <!-- Main Div Ends -->  
